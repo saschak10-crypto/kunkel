@@ -8,13 +8,16 @@
 - [ ] **Lernportal: Gewerbe und § 19 UStG klären** - ebenfalls Voraussetzung für den Privatbereich
 - [ ] **Lernportal: WiSo-Skripte 2 und 3 beschaffen** - fehlen quellseitig, ohne sie bleibt die Klausur „Rechtliche & handelsrechtliche Grundlagen" unvollständig
 
+- [ ] **Lernportal: Ansprechpartner eintragen** - unter `/admin/einstellungen` „Sascha Kunkel" speichern
+
 ## Waiting On
 - [ ] **Lernportal: Wirkungskontrollen** - erst messbar, wenn die Klasse wieder übt (Praktikum bis Ende November, Nachschreibtermin frühestens Dezember)
 - [ ] **Lernportal: 3 beantwortete Fragemeldungen** - Melder haben die Antworten noch nicht abgehakt (`antworten_ungelesen` = 3)
 
 ## Someday
 - [ ] **Lernportal: Alte Punkte vom August prüfen** - Stand unklar, im Vault nicht als erledigt vermerkt
-  - SSH-Deploy-Key, `ansprechpartner` setzen, OSI-Formulierungsfrage an die Lehrkraft
+  - SSH-Deploy-Key: prüfen, wie der Server bei GitHub angemeldet ist (`git remote -v` in `/var/www/lernportal`)
+  - OSI-Formulierungsfrage an die Lehrkraft
   - Änderungsprotokoll im Portal
   - 68 Aufgaben mit Stichwörtern, die die Musterlösung nicht hergibt
 
