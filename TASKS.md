@@ -8,7 +8,6 @@
 - [ ] **Lernportal: Gewerbe und § 19 UStG klären** - ebenfalls Voraussetzung für den Privatbereich
 - [ ] **Lernportal: WiSo-Skripte 2 und 3 beschaffen** - fehlen quellseitig, ohne sie bleibt die Klausur „Rechtliche & handelsrechtliche Grundlagen" unvollständig
 - [ ] **Lernportal: Modell-PR prüfen und zusammenführen** - wiso-lernapp PR 1 (Sonnet 5.5, Haiku 5.5); vorher `claude_model` in `config.local.php` auf dem Server prüfen, danach Fünf-Fälle-Sonde auf Sonnet 5.5
-
 - [ ] **Lernportal: ChatGPT-Prüfung der neuen Teil-1-Blöcke** - `design-review/Pruefauftrag-ChatGPT.md` samt Screenshots an ChatGPT geben, Patch zurück an Claude
 
 ## Waiting On
