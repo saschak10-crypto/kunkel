@@ -7,7 +7,6 @@
 - [ ] **Lernportal: Zahlungshinweis hinterlegen** - Voraussetzung, damit der Privatbereich buchbar wird
 - [ ] **Lernportal: Gewerbe und § 19 UStG klären** - ebenfalls Voraussetzung für den Privatbereich
 - [ ] **Lernportal: WiSo-Skripte 2 und 3 beschaffen** - fehlen quellseitig, ohne sie bleibt die Klausur „Rechtliche & handelsrechtliche Grundlagen" unvollständig
-
 - [ ] **Lernportal: Ansprechpartner eintragen** - unter `/admin/einstellungen` „Sascha Kunkel" speichern
 
 ## Waiting On
