@@ -7,7 +7,8 @@
 - [ ] **Lernportal: Zahlungshinweis hinterlegen** - Voraussetzung, damit der Privatbereich buchbar wird
 - [ ] **Lernportal: Gewerbe und § 19 UStG klären** - ebenfalls Voraussetzung für den Privatbereich
 - [ ] **Lernportal: WiSo-Skripte 2 und 3 beschaffen** - fehlen quellseitig, ohne sie bleibt die Klausur „Rechtliche & handelsrechtliche Grundlagen" unvollständig
-- [ ] **Lernportal: Modell-PR prüfen und zusammenführen** - wiso-lernapp PR 1 (Sonnet 5.5, Haiku 5.5); vorher `claude_model` in `config.local.php` auf dem Server prüfen, danach Fünf-Fälle-Sonde auf Sonnet 5.5
+- [ ] **Lernportal: Nach dem Modell-Merge prüfen** - `claude_model` in `/var/www/lernportal/config.local.php` prüfen, danach Fünf-Fälle-Sonde auf Sonnet 5.5
+- [ ] **netcup-Server: PHP-Sicherheitsupdate einspielen** - CVE-2026-109618/-109619, Release 21.10.2026 16:00 Uhr; danach `apt changelog php8.5-fpm` auf die CVE-Nummern prüfen
 - [ ] **Lernportal: ChatGPT-Prüfung der neuen Teil-1-Blöcke** - `design-review/Pruefauftrag-ChatGPT.md` samt Screenshots an ChatGPT geben, Patch zurück an Claude
 
 ## Waiting On
@@ -22,6 +23,7 @@
   - 68 Aufgaben mit Stichwörtern, die die Musterlösung nicht hergibt
 
 ## Done
+- [x] ~~Lernportal: wiso-lernapp PR 1 zusammengeführt~~ (21.10.2026, live 22:21 Uhr nachgemessen)
 - [x] ~~Lernportal: Teil-1-Lücken als Blöcke 9 und 10 gebaut~~ (19.10.2026, in wiso-lernapp PR 1)
 - [x] ~~Lernportal: Ansprechpartner eintragen~~ (19.10.2026, laut Sascha erledigt)
 - [x] ~~Lernportal: 3D-Intro abnehmen~~ (18.10.2026)
