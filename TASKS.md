@@ -1,0 +1,31 @@
+# Tasks
+
+## Active
+- [ ] **Lernportal: Prüfungsarchiv abnehmen** - `/pruefungsradar` ansehen und eine Probeprüfung durchspielen (Stand Vault 18.10.2026)
+- [ ] **Lernportal: Welle 2 ja/nein entscheiden** - nach der Abnahme des Prüfungsarchivs
+- [ ] **Lernportal: Stichprobe neue Inhalte** - Linux-Terminal-Sitzung, WiSo-Fall „Die Kündigung für Jonas", IPv6-Trainer, Fach IHK-AP2 („Hat Elif bestanden?"), AP2-Notenrechner; Rückmeldung als Fragemeldung im Portal
+- [ ] **Lernportal: Zahlungshinweis hinterlegen** - Voraussetzung, damit der Privatbereich buchbar wird
+- [ ] **Lernportal: Gewerbe und § 19 UStG klären** - ebenfalls Voraussetzung für den Privatbereich
+- [ ] **Lernportal: WiSo-Skripte 2 und 3 beschaffen** - fehlen quellseitig, ohne sie bleibt die Klausur „Rechtliche & handelsrechtliche Grundlagen" unvollständig
+- [ ] **Lernportal: Nach dem Modell-Merge prüfen** - `claude_model` in `/var/www/lernportal/config.local.php` prüfen, danach Fünf-Fälle-Sonde auf Sonnet 5.5
+- [ ] **netcup-Server: PHP-Sicherheitsupdate einspielen** - CVE-2026-109618/-109619, Release 21.10.2026 16:00 Uhr; danach `apt changelog php8.5-fpm` auf die CVE-Nummern prüfen
+- [ ] **Lernportal: ChatGPT-Prüfung der neuen Teil-1-Blöcke** - `design-review/Pruefauftrag-ChatGPT.md` samt Screenshots an ChatGPT geben, Patch zurück an Claude
+
+## Waiting On
+- [ ] **Lernportal: Wirkungskontrollen** - erst messbar, wenn die Klasse wieder übt (Praktikum bis Ende November, Nachschreibtermin frühestens Dezember)
+- [ ] **Lernportal: 3 beantwortete Fragemeldungen** - Melder haben die Antworten noch nicht abgehakt (`antworten_ungelesen` = 3)
+
+## Someday
+- [ ] **Lernportal: Alte Punkte vom August prüfen** - Stand unklar, im Vault nicht als erledigt vermerkt
+  - SSH-Deploy-Key: prüfen, wie der Server bei GitHub angemeldet ist (`git remote -v` in `/var/www/lernportal`)
+  - OSI-Formulierungsfrage an die Lehrkraft
+  - Änderungsprotokoll im Portal
+  - 68 Aufgaben mit Stichwörtern, die die Musterlösung nicht hergibt
+
+## Done
+- [x] ~~Lernportal: wiso-lernapp PR 1 zusammengeführt~~ (21.10.2026, live 22:21 Uhr nachgemessen)
+- [x] ~~Lernportal: Teil-1-Lücken als Blöcke 9 und 10 gebaut~~ (19.10.2026, in wiso-lernapp PR 1)
+- [x] ~~Lernportal: Ansprechpartner eintragen~~ (19.10.2026, laut Sascha erledigt)
+- [x] ~~Lernportal: 3D-Intro abnehmen~~ (18.10.2026)
+- [x] ~~Lernportal: Entscheidung `ihk-ap1`-Bögen bleiben nah am Original~~ (18.10.2026)
+- [x] ~~Lernportal: Ankündigung Prüfungsradar und Probeprüfungen an die Klasse~~ (18.10.2026, 14 gesendet)
