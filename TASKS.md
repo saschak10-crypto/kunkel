@@ -8,7 +8,6 @@
 - [ ] **Lernportal: Gewerbe und § 19 UStG klären** - ebenfalls Voraussetzung für den Privatbereich
 - [ ] **Lernportal: WiSo-Skripte 2 und 3 beschaffen** - fehlen quellseitig, ohne sie bleibt die Klausur „Rechtliche & handelsrechtliche Grundlagen" unvollständig
 - [ ] **Lernportal: Nach dem Modell-Merge prüfen** - `claude_model` in `/var/www/lernportal/config.local.php` prüfen, danach Fünf-Fälle-Sonde auf Sonnet 5.5
-- [ ] **netcup-Server: PHP-Sicherheitsupdate einspielen** - CVE-2026-109618/-109619, Release 21.10.2026 16:00 Uhr; danach `apt changelog php8.5-fpm` auf die CVE-Nummern prüfen
 - [ ] **Lernportal: ChatGPT-Prüfung der neuen Teil-1-Blöcke** - `design-review/Pruefauftrag-ChatGPT.md` samt Screenshots an ChatGPT geben, Patch zurück an Claude
 
 ## Waiting On
@@ -23,6 +22,9 @@
   - 68 Aufgaben mit Stichwörtern, die die Musterlösung nicht hergibt
 
 ## Done
+- [x] ~~netcup-Server: PHP-Sicherheitsupdate (CVE-2026-109618/-109619)~~ (26.10.2026, nachgemessen: php8.5 8.5.4-0ubuntu1.5 mit beiden CVEs im Changelog, keine PHP-Updates offen, php8.5-fpm aktiv)
+- [x] ~~Lernportal: Login nach Passwortänderung repariert~~ (26.10.2026, laut Sascha)
+- [x] ~~Lernportal: AP2-Streuung im Selftest zuverlässig~~ (21.10.2026, wiso-lernapp PR 2)
 - [x] ~~Lernportal: wiso-lernapp PR 1 zusammengeführt~~ (21.10.2026, live 22:21 Uhr nachgemessen)
 - [x] ~~Lernportal: Teil-1-Lücken als Blöcke 9 und 10 gebaut~~ (19.10.2026, in wiso-lernapp PR 1)
 - [x] ~~Lernportal: Ansprechpartner eintragen~~ (19.10.2026, laut Sascha erledigt)
